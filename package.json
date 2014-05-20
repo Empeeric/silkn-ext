@@ -1,0 +1,22 @@
+{
+  "name": "silkn-ext",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.app",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Empeeric/silkn-ext.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Empeeric/silkn-ext/issues"
+  },
+  "homepage": "https://github.com/Empeeric/silkn-ext",
+  "dependencies": {
+    "mongojs": "^0.13.0"
+  }
+}
