@@ -1,0 +1,69 @@
+{
+  "name": "silkn-ext",
+  "version": "0.0.0",
+  "dependencies": {
+    "mongojs": {
+      "version": "0.13.0",
+      "from": "mongojs@0.13.0",
+      "resolved": "http://registry.npmjs.org/mongojs/-/mongojs-0.13.0.tgz",
+      "dependencies": {
+        "thunky": {
+          "version": "0.1.0",
+          "from": "thunky@~0.1.0",
+          "resolved": "http://registry.npmjs.org/thunky/-/thunky-0.1.0.tgz"
+        },
+        "readable-stream": {
+          "version": "1.1.13-1",
+          "from": "readable-stream@~1.1.9",
+          "resolved": "http://registry.npmjs.org/readable-stream/-/readable-stream-1.1.13-1.tgz",
+          "dependencies": {
+            "core-util-is": {
+              "version": "1.0.1",
+              "from": "core-util-is@~1.0.0",
+              "resolved": "http://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz"
+            },
+            "isarray": {
+              "version": "0.0.1",
+              "from": "isarray@0.0.1",
+              "resolved": "http://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
+            },
+            "string_decoder": {
+              "version": "0.10.25-1",
+              "from": "string_decoder@~0.10.x",
+              "resolved": "http://registry.npmjs.org/string_decoder/-/string_decoder-0.10.25-1.tgz"
+            },
+            "inherits": {
+              "version": "2.0.1",
+              "from": "inherits@~2.0.1",
+              "resolved": "http://registry.npmjs.org/inherits/-/inherits-2.0.1.tgz"
+            }
+          }
+        },
+        "mongodb": {
+          "version": "1.4.0",
+          "from": "mongodb@1.4.0",
+          "resolved": "http://registry.npmjs.org/mongodb/-/mongodb-1.4.0.tgz",
+          "dependencies": {
+            "bson": {
+              "version": "0.2.7",
+              "from": "bson@0.2.7",
+              "resolved": "http://registry.npmjs.org/bson/-/bson-0.2.7.tgz",
+              "dependencies": {
+                "nan": {
+                  "version": "0.8.0",
+                  "from": "nan@~0.8.0",
+                  "resolved": "http://registry.npmjs.org/nan/-/nan-0.8.0.tgz"
+                }
+              }
+            },
+            "kerberos": {
+              "version": "0.0.3",
+              "from": "kerberos@0.0.3",
+              "resolved": "http://registry.npmjs.org/kerberos/-/kerberos-0.0.3.tgz"
+            }
+          }
+        }
+      }
+    }
+  }
+}
