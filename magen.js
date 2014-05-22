@@ -1,3 +1,5 @@
+'use strict';
+
 var config = {
     host: 'homebeauty.co.il',
     path: '/api/xmlrpc/',
